@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinTuChat.Views.AuthorizationPage"
+             Title="TuChat">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="energy.png" Priority="0" Order="Primary"/>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#00bb81">
+            <Frame HasShadow="True" BackgroundColor="#00bb81">
+                <Label Text="Авторизация" FontSize="18" TextColor="#0e6049" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+            </Frame>
+            
+            <Label Text="Номер(без 7)" Margin="20,15,0,0"/>
+            <Entry x:Name="LogBox" Margin="15,0,15,0"/>
+            <Label Text="Пароль" Margin="20,15,0,0"/>
+            <Entry x:Name="PassBox" Margin="15,0,15,0" IsPassword="True"/>
+            <Button Text="Войти" HorizontalOptions="Center" Margin="20,20,20,0" WidthRequest="200" CornerRadius="10" FontAttributes="Bold" Clicked="BtnLog_Clicked"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="Забыли пароль?" FontSize="14" HorizontalOptions="Center" BackgroundColor="Transparent" Clicked="BtnPass_Clicked"/>
+                <Button Text="Нет акаунта?" FontSize="14" HorizontalOptions="Center" BackgroundColor="Transparent" Clicked="BtnReg_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

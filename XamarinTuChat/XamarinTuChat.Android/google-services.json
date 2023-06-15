@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "438237289736",
+    "project_id": "tuchat-2f821",
+    "storage_bucket": "tuchat-2f821.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438237289736:android:44b727f22f8aec4a1b60bd",
+        "android_client_info": {
+          "package_name": "XamarinTuChat.Android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438237289736-mhsk8ogarlcgv2j2hbrfjec3kau2emf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2cC25zVxRKN7EMmLldQeRprInotZpQto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438237289736-mhsk8ogarlcgv2j2hbrfjec3kau2emf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

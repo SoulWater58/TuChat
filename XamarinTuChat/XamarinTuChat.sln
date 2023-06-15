@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinTuChat.Android", "XamarinTuChat.Android\XamarinTuChat.Android.csproj", "{D2715FE9-3638-4043-A256-1E3607B6EF33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinTuChat", "XamarinTuChat\XamarinTuChat.csproj", "{0FE37A67-0EC3-47E5-A658-19DEE35BC9C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2715FE9-3638-4043-A256-1E3607B6EF33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2715FE9-3638-4043-A256-1E3607B6EF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2715FE9-3638-4043-A256-1E3607B6EF33}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D2715FE9-3638-4043-A256-1E3607B6EF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2715FE9-3638-4043-A256-1E3607B6EF33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2715FE9-3638-4043-A256-1E3607B6EF33}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0FE37A67-0EC3-47E5-A658-19DEE35BC9C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE37A67-0EC3-47E5-A658-19DEE35BC9C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE37A67-0EC3-47E5-A658-19DEE35BC9C8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0FE37A67-0EC3-47E5-A658-19DEE35BC9C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE37A67-0EC3-47E5-A658-19DEE35BC9C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE37A67-0EC3-47E5-A658-19DEE35BC9C8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {596CFF68-D57A-4B09-8881-3F25ACECDDF9}
+	EndGlobalSection
+EndGlobal
